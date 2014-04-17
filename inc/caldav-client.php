@@ -375,6 +375,9 @@ EOXML;
         $range = '';
 
     $filter = <<<EOFILTER
+  <d:prop>
+    <c:calendar-data />
+  </d:prop>
   <C:filter>
     <C:comp-filter name="VCALENDAR">
       <C:comp-filter name="VEVENT">
